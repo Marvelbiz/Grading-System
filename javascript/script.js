@@ -19,9 +19,10 @@ function Check(){
      else if(Score.value >100 || Score.value < 0){
         Result.innerHTML = Name.value+"  Enter a valid Score"
      }
-     else if(Score.value === "" || Name.value === ""){
+     else if(Score.value === ""){
       Result.innerHTML = Name.value+" Input Your Score"
-     } else{
+     } 
+     else{
         Result.innerHTML = Name.value+" You've Got F!"
      };
 };
